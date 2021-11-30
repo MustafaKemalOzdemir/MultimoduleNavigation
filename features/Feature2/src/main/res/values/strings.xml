@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Fragment 1B -->
+    <string name="feature_2a_page_title">Fragment 2A</string>
+    <string name="feature_2a_go_fragment_2B">Navigate Fragment 2B</string>
+    <string name="feature_2a_hint">Arguments for 2B</string>
+
+    <!-- Fragment 2B -->
+    <string name="feature_2b_page_title">Fragment 2B</string>
+    <string name="feature_2b_no_argument">No Argument</string>
+    <string name="feature_2a_go_back">Navigate Back</string>
+
+</resources>

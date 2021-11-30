@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_feature_1"
+    app:startDestination="@id/fragment1A">
+
+    <fragment
+        android:id="@+id/fragment1A"
+        android:name="com.mustafakemal.feature1.Fragment1A"
+        android:label="Fragment1A"
+        tools:layout="@layout/fragment_1a">
+        <deepLink app:uri="modulenavigationapp://feature1/fragment1a" />
+        <action
+            android:id="@+id/action_fragment1A_to_fragment1B"
+            app:destination="@id/fragment1B" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragment1B"
+        android:name="com.mustafakemal.feature1.Fragment1B"
+        android:label="Fragment1B"
+        tools:layout="@layout/fragment_1b">
+        <deepLink app:uri="modulenavigationapp://feature1/fragment1b" />
+    </fragment>
+
+</navigation>

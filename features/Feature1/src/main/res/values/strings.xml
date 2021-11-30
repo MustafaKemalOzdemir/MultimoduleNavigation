@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Fragment 1A -->
+    <string name="feature_1a_page_title">Feature 1A</string>
+    <string name="feature_1a_go_fragment_1B">Navigate Fragment 1B</string>
+    <string name="feature_1a_go_feature_2">Navigate Feature 2</string>
+    <string name="feature_1a_go_fragment_2A">Navigate Fragment 2A</string>
+    <string name="feature_1a_go_fragment_2B">Navigate Fragment 2B</string>
+
+    <!-- Fragment 1A -->
+    <string name="feature_1b_page_title">Feature 1B</string>
+    <string name="feature_1b_go_feature_2">Navigate Feature 2</string>
+    <string name="feature_1b_go_fragment_2A">Navigate Fragment 2A</string>
+    <string name="feature_1b_go_fragment_2B">Navigate Fragment 2B</string>
+    <string name="feature_1b_go_back">Navigate Back</string>
+
+</resources>

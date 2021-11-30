@@ -1,0 +1,6 @@
+rootProject.name = "Multimodule Navigation"
+include ':app'
+include ':features:Feature1'
+include ':features:Feature2'
+include ':resources'
+include ':core'
